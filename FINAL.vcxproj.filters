@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FRM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FRM_abt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lex_result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syn_result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FRM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FRM_abt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lex_result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syn_result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FINAL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\iconfinder_40327_08_buttons_rss_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32131_ball_cute_favorites_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32139_ball_cute_shutdown_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32136_ball_cute_logoff_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32133_ball_check_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32141_close_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32134_warning_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_32140_ball_cute_standby_icon_128px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\iconfinder_619539_close_delete_dismiss_exit_cancel_icon_512px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-checkmark-128.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-cross-mark-96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-wrong-pincode-80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-wrong-pincode-96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-good-pincode-80.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-good-pincode-96.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-level-up-48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-download-24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-download-50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-sort-right-64 (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-sort-right-64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-save-50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-save-64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-plus-math-16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-info-64 (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-info-64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-shutdown-64 (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-shutdown-64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-cancel-64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\icons8-forward-button-64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\—Pngtree—start button rounded futuristic hologram_5426086.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\—Pngtree—glossy start button png and_5415675.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\done.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\start-button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="a.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\ICON\Iconshock-Free-Folder-Folder-fonts.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,155 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_40327_08_buttons_rss_icon_128px.png"
+
+IDB_PNG2                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32131_ball_cute_favorites_icon_128px.png"
+
+IDB_PNG3                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32139_ball_cute_shutdown_icon_128px.png"
+
+IDB_PNG4                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32136_ball_cute_logoff_icon_128px.png"
+
+IDB_PNG5                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32133_ball_check_icon_128px.png"
+
+IDB_PNG6                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32141_close_icon_128px.png"
+
+IDB_PNG7                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32134_warning_icon_128px.png"
+
+IDB_PNG8                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_32140_ball_cute_standby_icon_128px.png"
+
+IDB_PNG9                PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\iconfinder_619539_close_delete_dismiss_exit_cancel_icon_512px.png"
+
+IDB_PNG10               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-checkmark-128.png"
+
+IDB_PNG11               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-cross-mark-96.png"
+
+IDB_PNG12               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-wrong-pincode-80.png"
+
+IDB_PNG13               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-wrong-pincode-96.png"
+
+IDB_PNG14               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-good-pincode-80.png"
+
+IDB_PNG15               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-good-pincode-96.png"
+
+IDB_PNG16               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-level-up-48.png"
+
+IDB_PNG17               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-download-24.png"
+
+IDB_PNG18               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-download-50.png"
+
+IDB_PNG19               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-sort-right-64 (1).png"
+
+IDB_PNG20               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-sort-right-64.png"
+
+IDB_PNG21               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-save-50.png"
+
+IDB_PNG22               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-save-64.png"
+
+IDB_PNG23               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-plus-math-16.png"
+
+IDB_PNG24               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-info-64 (1).png"
+
+IDB_PNG25               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-info-64.png"
+
+IDB_PNG26               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-shutdown-64 (1).png"
+
+IDB_PNG27               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-shutdown-64.png"
+
+IDB_PNG28               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-cancel-64.png"
+
+IDB_PNG29               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\icons8-forward-button-64.png"
+
+IDB_PNG30               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\—Pngtree—start button rounded futuristic hologram_5426086.png"
+
+IDB_PNG31               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\—Pngtree—glossy start button png and_5415675.png"
+
+IDB_PNG32               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\done.png"
+
+IDB_PNG33               PNG                     "C:\\Users\\BENSMAIL-N\\Downloads\\start-button.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "a.ico"
+
+IDI_ICON2               ICON                    "D:\\ICON\\Iconshock-Free-Folder-Folder-fonts.ico"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Arabic (Algeria) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ARG)
+LANGUAGE LANG_ARABIC, SUBLANG_ARABIC_ALGERIA
+#pragma code_page(1256)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Arabic (Algeria) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

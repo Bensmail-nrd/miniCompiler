@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2154B1D9-51A3-459F-9A67-AFACAE668CAB}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>FINAL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FRM.cpp" />
+    <ClCompile Include="FRM_abt.cpp" />
+    <ClCompile Include="lex_result.cpp" />
+    <ClCompile Include="syn_result.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code.h" />
+    <ClInclude Include="FRM.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FRM_abt.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="lex_result.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="syn_result.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FRM.resx">
+      <DependentUpon>FRM.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_abt.resx">
+      <DependentUpon>FRM_abt.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lex_result.resx">
+      <DependentUpon>lex_result.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syn_result.resx">
+      <DependentUpon>syn_result.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FINAL.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\done.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32131_ball_cute_favorites_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32133_ball_check_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32134_warning_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32136_ball_cute_logoff_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32139_ball_cute_shutdown_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32140_ball_cute_standby_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_32141_close_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_40327_08_buttons_rss_icon_128px.png" />
+    <Image Include="..\..\..\Downloads\iconfinder_619539_close_delete_dismiss_exit_cancel_icon_512px.png" />
+    <Image Include="..\..\..\Downloads\icons8-cancel-64.png" />
+    <Image Include="..\..\..\Downloads\icons8-checkmark-128.png" />
+    <Image Include="..\..\..\Downloads\icons8-cross-mark-96.png" />
+    <Image Include="..\..\..\Downloads\icons8-download-24.png" />
+    <Image Include="..\..\..\Downloads\icons8-download-50.png" />
+    <Image Include="..\..\..\Downloads\icons8-forward-button-64.png" />
+    <Image Include="..\..\..\Downloads\icons8-good-pincode-80.png" />
+    <Image Include="..\..\..\Downloads\icons8-good-pincode-96.png" />
+    <Image Include="..\..\..\Downloads\icons8-info-64 (1).png" />
+    <Image Include="..\..\..\Downloads\icons8-info-64.png" />
+    <Image Include="..\..\..\Downloads\icons8-level-up-48.png" />
+    <Image Include="..\..\..\Downloads\icons8-plus-math-16.png" />
+    <Image Include="..\..\..\Downloads\icons8-save-50.png" />
+    <Image Include="..\..\..\Downloads\icons8-save-64.png" />
+    <Image Include="..\..\..\Downloads\icons8-shutdown-64 (1).png" />
+    <Image Include="..\..\..\Downloads\icons8-shutdown-64.png" />
+    <Image Include="..\..\..\Downloads\icons8-sort-right-64 (1).png" />
+    <Image Include="..\..\..\Downloads\icons8-sort-right-64.png" />
+    <Image Include="..\..\..\Downloads\icons8-wrong-pincode-80.png" />
+    <Image Include="..\..\..\Downloads\icons8-wrong-pincode-96.png" />
+    <Image Include="..\..\..\Downloads\start-button.png" />
+    <Image Include="..\..\..\Downloads\—Pngtree—glossy start button png and_5415675.png" />
+    <Image Include="..\..\..\Downloads\—Pngtree—start button rounded futuristic hologram_5426086.png" />
+    <Image Include="a.ico" />
+    <Image Include="D:\ICON\Iconshock-Free-Folder-Folder-fonts.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
